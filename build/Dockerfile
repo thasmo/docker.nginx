@@ -34,14 +34,14 @@ RUN set -x \
 	&& cd /tmp/nginx-${NGINX_VERSION}/ \
 	&& ./configure \
 		--prefix=/etc/nginx \
-        --sbin-path=/usr/sbin/nginx \
-        --conf-path=/etc/nginx/nginx.conf \
-        --pid-path=/var/run/nginx.pid \
-        --lock-path=/var/run/nginx.lock \
-        --error-log-path=/dev/stderr \
-        --http-log-path=/dev/stdout \
-        --with-pcre \
-        --with-pcre-jit \
+		--sbin-path=/usr/sbin/nginx \
+		--conf-path=/etc/nginx/nginx.conf \
+		--pid-path=/var/run/nginx.pid \
+		--lock-path=/var/run/nginx.lock \
+		--error-log-path=/dev/stderr \
+		--http-log-path=/dev/stdout \
+		--with-pcre \
+		--with-pcre-jit \
 		--with-stream \
 		--with-http_v2_module \
 		--with-http_ssl_module \
