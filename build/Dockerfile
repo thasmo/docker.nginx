@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:9
 MAINTAINER Thomas "Thasmo" Deinhamer <hi@thasmo.com>
 
 # Set build arguments.
