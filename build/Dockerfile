@@ -38,6 +38,8 @@ RUN set -x \
 	# Compile Nginx.
 	&& cd /tmp/nginx-${NGINX_VERSION}/ \
 	&& ./configure \
+		--user=$NGINX_USER \
+		--group=$NGINX_USER \
 		--prefix=/etc/nginx \
 		--sbin-path=/usr/sbin/nginx \
 		--conf-path=/etc/nginx/nginx.conf \
