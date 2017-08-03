@@ -5,7 +5,7 @@ MAINTAINER Thomas "Thasmo" Deinhamer <hi@thasmo.com>
 ARG NGINX_USER="nginx"
 ARG NGINX_VERSION=1.13.3
 ARG NGINX_URL="https://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz"
-ARG NCHAN_VERSION=1.0.8
+ARG NCHAN_VERSION=1.1.7
 ARG NCHAN_URL="https://github.com/slact/nchan/archive/v${NCHAN_VERSION}.tar.gz"
 
 # Add our user/group first to ensure their IDs get set consistently.
