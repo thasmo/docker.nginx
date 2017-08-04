@@ -2,6 +2,15 @@
 
 ## [next]
 
+### Added
+- Add Travis CI configuration.
+- Compile Nginx with zlib support.
+
+### Changed
+- Update base image to Debian 9.
+- Update Nginx.
+- Update Nchan.
+
 ## [0.1.0]
 
 ### Added
